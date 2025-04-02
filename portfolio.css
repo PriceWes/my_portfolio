@@ -275,7 +275,7 @@ footer{
 }
 
 /*making the portfolio responsive*/
-@media (min-width: 400px) and (max-width: 768px) {
+@media(max-width: 768px) {
     main {
         margin: 0 5%;
     }
