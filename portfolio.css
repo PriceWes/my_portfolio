@@ -291,6 +291,10 @@ table {
     overflow-x: auto; 
 }
 
+header, footer{
+    width: 100%;
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
     main {
         margin: 0 10%;
