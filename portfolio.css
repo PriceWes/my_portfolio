@@ -1,0 +1,327 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+main{
+    margin: 0 80px;
+}
+
+/*header styling*/
+header {
+    width: 100%;
+    background-color: #2c3e50;
+    padding: 15px 0;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin: 0; 
+    transition: all 0.3s ease;
+}
+
+nav ul li:hover{
+    background-color: #34495e;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none; 
+    font-weight: 600;
+}
+
+h2{
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2em;
+}
+
+/*home styling*/
+.about{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.about .img{
+    text-align: center;
+    padding: 20px;
+}
+
+.about .about_me{
+    width: 100%;
+    max-width: 600px;
+}
+
+.profiles{
+    display: flex;
+    margin-left: 100px;
+    gap: 200px;
+}
+
+.profiles a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.profiles a img{
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.profiles a:hover{
+    text-decoration: underline;
+}
+
+/*tecskills styling*/
+table{
+    width: 700px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+th{
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+}
+
+td{
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover{
+    background-color: #f5f5f5;
+}
+
+/*interests styling*/
+.int{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.int h3{
+    text-align: center;
+    color: #2c3e50;
+}
+
+.blockchain, .ai, .uiux{
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.int .ai:hover, .uiux:hover, .blockchain:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.15);
+}
+
+/*education styling*/
+.edu li{
+    font-weight: 600;
+    padding-top: 10px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 25px;
+}
+
+.edu li:before{
+    content: "•";
+    color: #3498db;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#education, #projects, #interests, #contact, #cv{
+   margin: 20px 0;
+   box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+   border-radius: 10px;
+   padding: 25px;
+   background-color: white;
+}
+
+/*Curriculum vitae*/
+.cv-btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cv-btn input[type="button"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cv-btn input[type="button"]:hover {
+    background-color: #2980b9;
+}
+
+/*projects styling*/
+.proj{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.proj-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.proj_1, .proj_2{
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.proj_1:hover, .proj_2:hover {
+    transform: translateY(-5px);
+}
+
+.proj-btn input[type="button"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.proj-btn input[type="button"]:hover {
+    background-color: #2980b9;
+}
+
+/*contact section styling*/
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+form{
+    margin: auto;
+    width: 80%;
+}
+
+.feedback input, .feedback textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feedback button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.feedback button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/*footer styling*/
+footer{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/*making the portfolio responsive*/
+@media (min-width: 400px) and (max-width: 768px) {
+    main {
+        margin: 0 5%;
+    }
+    
+    .about, .int, .proj, .cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    table {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    main {
+        margin: 0 10%;
+    }
+    
+    .about {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    main {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
