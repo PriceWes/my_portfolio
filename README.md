@@ -16,7 +16,7 @@ open the index.html file on your browser https://127.0.0.1/index.html
 If you are using vs code: #Run the live server and you will be able to access it.  
 
 **Access it here via the WEB**  
-[My Portfolio Website] (https://wesliyodhiambo-portfolio.netlify.app/)  
+[My Portfolio Website](https://wesliyodhiambo-portfolio.netlify.app/)  
 
 **Feedback**  
-You can leave your feedback via the form on the Portfolio website or contact me via email: [Email me] (obonyowesliy@gmail.com)  
+You can leave your feedback via the form on the Portfolio website or contact me via email: [Email me](obonyowesliy@gmail.com)  
